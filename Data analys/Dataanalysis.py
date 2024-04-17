@@ -194,7 +194,7 @@ def main():
 
     # Holt-Winters analys för 'OrderEntry'
     #perform_holt_winters_analysis(order_entry_df,'Weight', 12, 'M')
-    print("Number of unique customers:", order_entry_df['CustomerId'].nunique())
+    #print("Number of unique customers:", order_entry_df['CustomerId'].nunique())
 if __name__ == '__main__':
     main()
     
